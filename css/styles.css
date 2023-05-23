@@ -1,5 +1,5 @@
 body {
-  max-width: 320px;
+  max-width: 375px;
   margin: auto;
   background: #ddd;
 }
@@ -7,4 +7,71 @@ body {
 img {
   display: block;
   max-width: 100%;
+}
+
+header {
+  background-image: url(../img/franny-header.jpg);
+  background-size: cover;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+  padding: 115px 60px 0;
+}
+
+header p {
+  color: #c8c8c8;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 90px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #fff;
+  color: #fff;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+}
+
+nav img {
+  width: 220px;
+}
+
+.box-nav {
+  padding: 30px 18px 5px;
+}
+
+.titre-nav {
+  margin: 0;
+  padding: 0 8px;
+  border-left: #fff solid 2.5px;
+}
+
+.box-nav a {
+  font-size: 13px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.design-intro {
+  background-color: #003000;
+}
+
+.beckmann-intro {
+  background-color: #00202d;
+}
+
+.paddles-intro {
+  background-color: #3a1700;
 }
